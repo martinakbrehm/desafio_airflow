@@ -1,0 +1,121 @@
+[2024-10-09T18:07:51.929-0300] {processor.py:156} INFO - Started process (PID=61506) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:07:51.931-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:07:51.932-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:07:51.931-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:07:51.937-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:07:51.936-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:07:51.938-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:07:51.938-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:07:51.939-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:07:51.952-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2024-10-09T18:09:20.666-0300] {processor.py:156} INFO - Started process (PID=62099) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:09:20.683-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:09:20.684-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:09:20.684-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:09:20.689-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:09:20.688-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:09:20.690-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:09:20.690-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:09:20.691-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:09:20.712-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.057 seconds
+[2024-10-09T18:10:15.863-0300] {processor.py:156} INFO - Started process (PID=62255) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:10:15.902-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:10:15.904-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:10:15.903-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:10:15.912-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:10:15.910-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:10:15.913-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:10:15.913-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:10:15.914-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:10:15.934-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.081 seconds
+[2024-10-09T18:11:12.414-0300] {processor.py:156} INFO - Started process (PID=62485) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:11:12.434-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:11:12.435-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:11:12.435-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:11:12.438-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:11:12.438-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:11:12.439-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:11:12.439-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:11:12.439-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:11:12.452-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.043 seconds
+[2024-10-09T18:12:09.715-0300] {processor.py:156} INFO - Started process (PID=62621) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:12:09.732-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:12:09.733-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:12:09.733-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:12:09.739-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:12:09.738-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:12:09.739-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:12:09.739-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:12:09.740-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:12:09.759-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.050 seconds
+[2024-10-09T18:13:27.217-0300] {processor.py:156} INFO - Started process (PID=62763) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:13:27.259-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:13:27.261-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:13:27.261-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:13:27.270-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:13:27.268-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:13:27.271-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:13:27.271-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:13:27.272-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:13:27.295-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.084 seconds
+[2024-10-09T18:14:21.147-0300] {processor.py:156} INFO - Started process (PID=62880) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:14:21.161-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:14:21.163-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:14:21.162-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:14:21.168-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:14:21.167-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:14:21.169-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:14:21.169-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:14:21.169-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:14:21.190-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.049 seconds
+[2024-10-09T18:15:18.608-0300] {processor.py:156} INFO - Started process (PID=63071) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:15:18.633-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:15:18.634-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:15:18.633-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:15:18.636-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:15:18.636-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:15:18.636-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:15:18.636-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:15:18.637-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:15:18.645-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.042 seconds
+[2024-10-09T18:16:32.249-0300] {processor.py:156} INFO - Started process (PID=63318) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:16:32.267-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:16:32.269-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:16:32.269-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:16:32.281-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:16:32.278-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:16:32.282-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:16:32.282-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:16:32.283-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:16:32.317-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2024-10-09T18:17:36.730-0300] {processor.py:156} INFO - Started process (PID=63941) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:17:36.821-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:17:36.822-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:17:36.821-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:17:36.829-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:17:36.827-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:17:36.830-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:17:36.830-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:17:36.830-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:17:36.846-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.124 seconds
+[2024-10-09T18:18:32.077-0300] {processor.py:156} INFO - Started process (PID=64092) to work on /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:18:32.097-0300] {processor.py:799} INFO - Processing file /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-10-09T18:18:32.102-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:18:32.100-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:18:32.115-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:18:32.111-0300] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-10-09T18:18:32.116-0300] {logging_mixin.py:149} INFO - [2024-10-09T18:18:32.115-0300] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-10-09T18:18:32.117-0300] {processor.py:811} WARNING - No viable dags retrieved from /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-10-09T18:18:32.159-0300] {processor.py:178} INFO - Processing /home/marti/Lighthouse/airflow_tooltorial/venv/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.092 seconds
